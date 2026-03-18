@@ -5,7 +5,6 @@ import { ErrorBoundary } from "./components/ErrorBoundary.tsx";
 import "./index.css";
 
 // Some web3/auth deps (Privy / ZeroDev / viem ecosystem) still expect Node's Buffer global.
-// Attach a browser-safe polyfill once so downstream code can call Buffer.from(...) safely.
 if ((globalThis as any).Buffer === undefined) {
   (globalThis as any).Buffer = Buffer;
 }

@@ -14,16 +14,14 @@ const App = () => (
     <TooltipProvider>
       <Sonner />
       <BrowserRouter>
-        <div className="min-h-screen bg-background">
-          <Navbar />
-          <Routes>
-            <Route path="/" element={<Index />} />
-            <Route path="/deploy" element={<Deploy />} />
-            <Route path="/signatures" element={<Signatures />} />
-            <Route path="/dashboard" element={<Dashboard />} />
-            <Route path="*" element={<NotFound />} />
-          </Routes>
-        </div>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Index />} />
+          <Route path="/deploy" element={<Deploy />} />
+          <Route path="/signatures" element={<Signatures />} />
+          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
       </BrowserRouter>
     </TooltipProvider>
   </Web3Provider>
