@@ -10,6 +10,7 @@
         "@noble/curves": "^1.8.2",
         "@noble/hashes": "^1.7.1",
         "@privy-io/react-auth": "^3.17.0",
+        "@privy-io/wagmi": "1.0.5",
         "@radix-ui/react-accordion": "^1.2.11",
         "@radix-ui/react-alert-dialog": "^1.1.14",
         "@radix-ui/react-aspect-ratio": "^1.1.7",
@@ -364,6 +365,8 @@
     "@privy-io/routes": ["@privy-io/routes@0.0.8", "", { "dependencies": { "@privy-io/api-types": "0.6.1" } }, "sha512-RrEDFZ3E50QNO5bylPgWvqQD0UdHic1Xs7KZ60LVpB1nKGcBxjmMqV+4K3dACC1Jz/pSM1/ZjzLVsgCId0lqsg=="],
 
     "@privy-io/urls": ["@privy-io/urls@0.0.3", "", {}, "sha512-cococ82ycPJc+wSCHUG0TrVJXF2PIkmDH8TLV+oGqBr14Q7ziRI63aCFIp6FpSRhdDDo9jmB0VR9NjCak4ptMA=="],
+
+    "@privy-io/wagmi": ["@privy-io/wagmi@1.0.5", "", { "peerDependencies": { "@privy-io/react-auth": "^2.0.0", "react": ">=18", "viem": "^2.30.6", "wagmi": "^2.15.5" } }, "sha512-a9RoFbhL6/sAS4umN5ckcMfre7cYVKzAiVcZl5zMGaQvWLloQlwRSsWTVcNLUHUVaYjvia/Hsp0U/JgjVE5Ufg=="],
 
     "@radix-ui/number": ["@radix-ui/number@1.1.1", "", {}, "sha512-MkKCwxlXTgz6CFoJx3pCwn07GKp36+aZyu/u2Ln2VrA5DcdyCZkASEDBTd8x5whTQQL5CiYf4prXKLcgQdv29g=="],
 
