@@ -17,5 +17,11 @@ export default defineConfig(({ mode }) => ({
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
+    dedupe: [
+      "@noble/hashes",
+      "@noble/curves",
+      "viem",
+      "wagmi",
+    ],
   },
 }));
