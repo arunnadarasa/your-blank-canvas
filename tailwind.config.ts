@@ -64,8 +64,8 @@ export default {
         sm: "calc(var(--radius) - 8px)",
       },
       fontFamily: {
-        serif: ["'Newsreader'", "serif"],
-        sans: ["'Geist Sans'", "ui-sans-serif", "system-ui", "sans-serif"],
+        sans: ["'Inter'", "ui-sans-serif", "system-ui", "sans-serif"],
+        mono: ["'JetBrains Mono'", "monospace"],
       },
       keyframes: {
         "accordion-down": {
