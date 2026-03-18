@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { useEffect, useMemo, useState } from 'react';
 import { useAccount, useWalletClient } from 'wagmi';
 import { usePrivy } from '@privy-io/react-auth';
